@@ -1,5 +1,5 @@
-FROM archlinux/base
+FROM opensuse/tumbleweed
 
 LABEL maintainer="MajinBlayze"
 
-ADD /config/login.defs /etc/
+#ADD /config/login.defs /etc/
