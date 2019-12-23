@@ -1,5 +1,5 @@
 FROM archlinux/base
 
-MAINTAINER MajinBlayze
+LABEL maintainer="MajinBlayze"
 
 RUN pacman -Syyu --noconfirm
